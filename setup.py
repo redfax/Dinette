@@ -32,4 +32,17 @@ setup(
     url="http://www.agiliq.com/",
     license="GPL",
     platforms=["all"],
+    install_requires=[
+        'Django>=1.3.1',
+        "BeautifulSoup",
+        "PIL",
+        "django-compressor",
+        "django-pagination",
+        "django-socialauth",
+        "oauth",
+        "python-openid",
+        "sorl-thumbnail==11.09",
+        "Whoosh",
+        "django-haystack"
+    ],
 )
